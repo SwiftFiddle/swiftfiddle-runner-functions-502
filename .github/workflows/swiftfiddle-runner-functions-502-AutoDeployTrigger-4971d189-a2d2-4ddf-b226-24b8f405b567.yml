@@ -34,4 +34,4 @@ jobs:
           registryPassword: ${{ secrets.SWIFTFIDDLERUNNERFUNCTIONS502_REGISTRY_PASSWORD }}
           containerAppName: swiftfiddle-runner-functions-502
           resourceGroup: swiftfiddle
-          imageToBuild: swiftfiddle.azurecr.io/swiftfiddle-runner-functions-502:lastest
+          imageToBuild: swiftfiddle.azurecr.io/swiftfiddle-runner-functions-502:latest
