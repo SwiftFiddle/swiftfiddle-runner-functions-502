@@ -26,7 +26,7 @@ jobs:
           creds: ${{ secrets.SWIFTFIDDLERUNNERFUNCTIONS502_AZURE_CREDENTIALS }}
 
       - name: Build and push container image to registry
-        uses: azure/container-apps-deploy-action@v1
+        uses: azure/container-apps-deploy-action@v2
         with:
           appSourcePath: ${{ github.workspace }}
           registryUrl: swiftfiddle.azurecr.io
